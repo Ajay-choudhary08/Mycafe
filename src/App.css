@@ -1,0 +1,54 @@
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  color: #080808;
+}
+
+.header {
+  background-color: #070707;
+  padding: 1rem 0;
+  color: rgb(243, 241, 241);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-img {
+ width: 360px;
+ height: 200px;
+ margin-top: 5rem;
+ border-radius: 10vh;
+  box-shadow: 0 0 10px black;
+}
