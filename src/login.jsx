@@ -1,7 +1,7 @@
 import React from "react";
-import './App.css';
 
-function App() {
+
+function Login() {
   const handleSubmit = (e) => {
     e.preventDefault(); 
     alert("Login successful!");
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
